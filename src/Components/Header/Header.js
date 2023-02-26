@@ -104,7 +104,7 @@ const Header = () => {
     setShowSlide13(false);
   };
   return (
-    <div className="container px-52 mx-auto">
+    <div>
       <div className="bg-[#07B235] h-1 absolute top-0 right-0 left-0 text-center"></div>
       <div className="flex justify-between mt-3">
         <p className="font-[shabnamLight] text-zinc-400">
@@ -156,8 +156,8 @@ const Header = () => {
                 onMouseEnter={clickEntershowslide}
                 className={
                   showSlide
-                    ? "w-64 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all duration-500"
-                    : "w-64 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
+                    ? "w-64 absolute z-50 top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all opacity-100 duration-500"
+                    : "w-64 absolute z-50 top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>

@@ -2,6 +2,10 @@ import React from "react";
 import Home from "./page/Home/Home";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const App = () => {
   return (
