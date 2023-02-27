@@ -10,11 +10,11 @@ import OurProuduct from "../../Components/OurProuduct/OurProuduct";
 import Search from "../../Components/Search/Search";
 import ServicesHomePage from "../../Components/ServicesHomePage/ServicesHomePage";
 import SliderSwiper from "../../Components/SliderSwiper/SliderSwiper";
-import Footer from "../../Footer/Footer";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="container px-48 mx-auto">
+    <div>
       <header>
         {/* problem in respnsive */}
         <Header />

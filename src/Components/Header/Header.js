@@ -104,7 +104,7 @@ const Header = () => {
     setShowSlide13(false);
   };
   return (
-    <div>
+    <div className="container px-48 mx-auto">
       <div className="bg-[#07B235] h-1 absolute top-0 right-0 left-0 text-center"></div>
       <div className="flex justify-between mt-3">
         <p className="font-[shabnamLight] text-zinc-400">
@@ -283,7 +283,7 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <Link>ثبت سفارش</Link>
+              <Link to="/order">ثبت سفارش</Link>
             </li>
             <li>
               <Link>بلاگ</Link>

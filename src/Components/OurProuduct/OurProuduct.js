@@ -3,7 +3,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 
 const OurProuduct = () => {
   return (
-    <div className="flex gap-5">
+    <div className="flex gap-5 container px-48 mx-auto">
       <div className="w-[23rem] h-[37rem] bg-[#F3F3F5] border border-solid border-[#dbdbdb]">
         <div className="flex flex-col items-center bg-[#8E8C8C] text-white py-4 px-2">
           <p className="font-[shabnamBold] text-2xl tracking-tighter">پلن کسب و کار خانگی</p>

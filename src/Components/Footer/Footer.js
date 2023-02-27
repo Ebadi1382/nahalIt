@@ -22,7 +22,7 @@ const Footer = () => {
     setFooter(false);
   };
   return (
-    <div className="mt-96 h-[45rem] absolute text-[#ccc] right-0 left-0 bg-[#223621] whitespace-nowrap">
+    <div className="h-[45rem] absolute text-[#ccc] right-0 left-0 bg-[#223621] whitespace-nowrap container px-48 mx-auto">
       <div className="absolute bg-[#55FF51] h-[5px] left-0 right-0"></div>
       <div className="container px-36 mx-auto flex items-start justify-center gap-x-28 text-sm mt-24 tracking-tight">
         <div className="flex flex-col justify-center items-start gap-y-4">

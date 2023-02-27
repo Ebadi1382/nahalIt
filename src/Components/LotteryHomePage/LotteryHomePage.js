@@ -2,7 +2,7 @@ import React from "react";
 
 const LotteryHomePage = () => {
   return (
-    <div>
+    <div className="container px-48 mx-auto">
       <p className="text-center text-[#07B235] text-xl -tracking-[1.4px] font-black font-[shabnamBold]">
         نهال آی تی | اولین وبسایت خدماتی فروشگاهی در حوزه آی تی در ایران
       </p>

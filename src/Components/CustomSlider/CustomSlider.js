@@ -14,7 +14,7 @@ const CustomSlider = () => {
     }
   };
   return (
-    <div className="container mx-auto px-10 py-5 bg-[#f3f3f5] rounded-xl">
+    <div className="container mx-auto px-60 py-5 bg-[#f3f3f5] rounded-xl">
       <div className="flex items-center justify-between">
         <div className="border-r-4 text-[#868686] border-[#07B235] pr-2 font-bold text-2xl border-solid">
           <h3>قالب های ویژه HTML</h3>

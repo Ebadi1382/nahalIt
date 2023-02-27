@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const ServicesHomePage = () => {
   return (
-    <div>
+    <div className="container px-48 mx-auto">
       <div>
         <img src="https://nahalit.com/wp-content/uploads/2022/12/Untitled-1.jpg" width={200} alt="image_ServicesHomePage" />
       </div>

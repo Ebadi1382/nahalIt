@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const SliderSwiper = () => {
   return (
-    <div className="relative -z-50">
+    <div className="relative -z-50 container px-48 mx-auto">
       <Swiper
         className="mt-[1rem] relative -z-50 SW"
         modules={[Navigation, A11y, Autoplay]}

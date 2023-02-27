@@ -6,7 +6,7 @@ import { BiTimeFive } from "react-icons/bi";
 
 const Details = () => {
   return (
-    <div className="flex items-center justify-center gap-x-4">
+    <div className="flex items-center justify-center gap-x-4 container px-48 mx-auto mb-96 ">
       <div className="w-[23rem]">
         <div className="relative">
           <img

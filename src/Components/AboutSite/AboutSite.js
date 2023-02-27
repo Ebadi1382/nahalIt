@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSite = () => {
   return (
-    <div className="flex items-center justify-start gap-28 bg-[#f3f3f5] py-4 px-4 rounded-lg">
+    <div className="flex items-center justify-start gap-28 bg-[#f3f3f5] py-4 container px-48 mx-auto rounded-lg">
       <div className="flex items-center gap-x-3">
         <img alt="aboutSite" src="https://nahalit.com/wp-content/themes/Sigma/assets/img/s1.png" />
         <div className="items-center justify-center">
