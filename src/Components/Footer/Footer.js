@@ -27,9 +27,11 @@ const Footer = () => {
       <div className="container px-36 mx-auto flex items-start justify-center gap-x-28 text-sm mt-24 tracking-tight">
         <div className="flex flex-col justify-center items-start gap-y-4">
           <RiSendBackward className="text-6xl text-white" />
-          <Link className="font-[shabnamMedium] text-lg" to="/">لینک های کمکی</Link>
+          <Link className="font-[shabnamMedium] text-lg" to="/">
+            لینک های کمکی
+          </Link>
           <div className="w-20 h-[1px] bg-white"></div>
-          <Link className="mt-5 tracking-tighter" to="/">
+          <Link className="mt-5 tracking-tighter" to="/order">
             ثبت سفارش
           </Link>
           <Link to="/">فروشنده باشید</Link>
@@ -39,7 +41,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center gap-y-4">
           <BsFillBriefcaseFill className="text-6xl text-white" />
-          <Link className="font-[shabnamMedium] text-lg" to="/">خدمات اداری</Link>
+          <Link className="font-[shabnamMedium] text-lg" to="/">
+            خدمات اداری
+          </Link>
           <div className="w-12 h-[1px] bg-white"></div>
           <Link className="mt-5 tracking-tighter" to="/">
             ایمیل مارکتینگ
@@ -50,7 +54,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center gap-y-4">
           <FaSeedling className="text-6xl text-white" />
-          <Link className="font-[shabnamMedium] text-lg" to="/">خدمات تیم نهال آی تی</Link>
+          <Link className="font-[shabnamMedium] text-lg" to="/">
+            خدمات تیم نهال آی تی
+          </Link>
           <div className="w-12 h-[1px] bg-white"></div>
           <Link className="mt-5 tracking-tighter" to="/">
             فروش سایت اختصاصی و اقتصادی
@@ -64,7 +70,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center gap-y-4">
           <FaSeedling className="text-6xl text-white" />
-          <Link className="font-[shabnamMedium] text-lg" to="/">خدمات تیم نهال آی تی</Link>
+          <Link className="font-[shabnamMedium] text-lg" to="/">
+            خدمات تیم نهال آی تی
+          </Link>
           <div className="w-12 h-[1px] bg-white"></div>
           <Link className="mt-5 tracking-tighter" to="/">
             خدمات گرافیک

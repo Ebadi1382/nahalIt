@@ -143,7 +143,7 @@ const Header = () => {
         <div className="text-[#7c7c7c] text-sm flex gap-x-10">
           <ul className="flex items-center gap-x-4">
             <li>
-              <Link>صفحه اصلی</Link>
+              <Link to="/">صفحه اصلی</Link>
             </li>
             <li
               className="flex items-center gap-x-1 relative"
@@ -393,7 +393,7 @@ const Header = () => {
               <Link>آموزش ورود</Link>
             </li>
             <li>
-              <Link>استخدام</Link>
+              <Link to="/recruitment">استخدام</Link>
             </li>
             <li
               className="flex items-center gap-x-1 relative"

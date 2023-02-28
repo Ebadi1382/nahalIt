@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Order from "./page/Order/Order";
+import Recruitment from "./page/Recruitment/Recruitment";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/recruitment" element={<Recruitment />} />
           {/* <Route path="/notification" element={<Notification />} />
         <Route path="/products" element={<Products />} />
         <Route path="/profile" element={<Profile />} />
