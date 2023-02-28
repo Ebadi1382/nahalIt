@@ -1,13 +1,14 @@
 import React from "react";
 import Home from "./page/Home/Home";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "swiper/css/scrollbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Order from "./page/Order/Order";
 import Recruitment from "./page/Recruitment/Recruitment";
+import LoginLearn from "./page/LoginLearn/LoginLearn";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/order" element={<Order />} />
           <Route path="/recruitment" element={<Recruitment />} />
+          <Route path="/LoginLearn" element={<LoginLearn />} />
           {/* <Route path="/notification" element={<Notification />} />
         <Route path="/products" element={<Products />} />
         <Route path="/profile" element={<Profile />} />

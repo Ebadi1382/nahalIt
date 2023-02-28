@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation, A11y, Autoplay } from "swiper";
+import { Navigation, A11y, Autoplay, Pagination, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const SliderSwiper = () => {
@@ -7,12 +7,14 @@ const SliderSwiper = () => {
     <div className="relative -z-50 container px-48 mx-auto">
       <Swiper
         className="mt-[1rem] relative -z-50 SW"
-        modules={[Navigation, A11y, Autoplay]}
+        modules={[Navigation, A11y, Autoplay, Pagination, Scrollbar]}
+        pagination={true}
+        navigation={true}
+        scrollbar={{
+          hide: true,
+        }}
         spaceBetween={50}
         slidesPerView={1}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         // breakpoints={{
         //   // when window width is >= 640px

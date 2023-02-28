@@ -390,7 +390,7 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <Link>آموزش ورود</Link>
+              <Link to="/LoginLearn">آموزش ورود</Link>
             </li>
             <li>
               <Link to="/recruitment">استخدام</Link>
