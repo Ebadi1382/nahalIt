@@ -294,7 +294,7 @@ const Header = () => {
               onMouseEnter={clickEntershowslide2}
               onMouseLeave={clickoutshowslide2}
             >
-              <Link>نمونه کارها</Link>
+              <Link to="/">نمونه کارها</Link>
               <RiArrowDownSLine />
               <div
                 onMouseEnter={clickEntershowslide2}
@@ -311,7 +311,7 @@ const Header = () => {
                     onMouseEnter={clickEntershowslide11}
                     onMouseLeave={clickoutshowslide11}
                   >
-                    <Link>نمونه کار گرافیک</Link>
+                    <Link to="/">نمونه کار گرافیک</Link>
                     <MdKeyboardArrowLeft />
                     <div
                       onMouseEnter={clickEntershowslide11}
@@ -321,10 +321,10 @@ const Header = () => {
                           : "absolute -left-[15.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
-                      <Link className="px-4 py-1">
+                      <Link to="/MotionGraphics" className="px-4 py-1">
                         <p>نمونه کار موشن گرافیک</p>
                       </Link>
-                      <Link className="px-4 py-1">
+                      <Link to="/UI_UX" className="px-4 py-1">
                         <p>نمونه کار UI/UX</p>
                       </Link>
                       <Link className="px-4 py-1">

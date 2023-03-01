@@ -9,7 +9,7 @@ const Recruitment = () => {
       <header>
         <Header />
       </header>
-      <div className="bg-[#F0F0F0] mt-2 pb-32">
+      <div className="bg-[#f5f5f9] mt-2 pb-32">
         <div className="container px-48 mx-auto pt-12 flex justify-between items-start gap-x-12">
           <div className="flex flex-col">
             <h3 className="font-[shabnamBold]">شرابط استخدام :</h3>
