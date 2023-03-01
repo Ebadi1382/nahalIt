@@ -13,6 +13,7 @@ import MotionGraphics from "./page/MotionGraphics/MotionGraphics";
 import UI_UX from "./page/UI_UX/UI_UX";
 import Brochure from "./page/Brochure/Brochure";
 import Poster from "./page/Poster/Poster";
+import Catalog from "./page/Catalog/Catalog";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/UI_UX" element={<UI_UX />} />
           <Route path="/Brochure" element={<Brochure />} />
           <Route path="/Poster" element={<Poster />} />
+          <Route path="/Catalog" element={<Catalog />} />
         </Routes>
       </div>
       {/* <ToastContainer
