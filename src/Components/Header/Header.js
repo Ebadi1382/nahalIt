@@ -327,7 +327,7 @@ const Header = () => {
                       <Link to="/UI_UX" className="px-4 py-1">
                         <p>نمونه کار UI/UX</p>
                       </Link>
-                      <Link className="px-4 py-1">
+                      <Link to="/Brochure" className="px-4 py-1">
                         <p>نمونه کار بروشور</p>
                       </Link>
                       <Link className="px-4 py-1">

@@ -11,6 +11,7 @@ import Recruitment from "./page/Recruitment/Recruitment";
 import LoginLearn from "./page/LoginLearn/LoginLearn";
 import MotionGraphics from "./page/MotionGraphics/MotionGraphics";
 import UI_UX from "./page/UI_UX/UI_UX";
+import Brochure from "./page/Brochure/Brochure";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/LoginLearn" element={<LoginLearn />} />
           <Route path="/MotionGraphics" element={<MotionGraphics />} />
           <Route path="/UI_UX" element={<UI_UX />} />
+          <Route path="/Brochure" element={<Brochure />} />
         </Routes>
       </div>
       {/* <ToastContainer
