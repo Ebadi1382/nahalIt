@@ -339,7 +339,7 @@ const Header = () => {
                       <Link to="/BusinessCard" className="px-4 py-1">
                         <p>نمونه کار کارت ویزیت</p>
                       </Link>
-                      <Link className="px-4 py-1">
+                      <Link to="/Logo" className="px-4 py-1">
                         <p>نمونه کار لوگو</p>
                       </Link>
                     </div>
