@@ -8,7 +8,7 @@ const Brochure = () => {
       <header>
         <Header />
       </header>
-      <div className="bg-[#f5f5f9] pt-9 mb-12">
+      <div className="bg-[#f5f5f9] pt-9 pb-12">
         <div className="container px-48 mx-auto">
           <h2 className="font-[shabnamBold] text-4xl px-12">نمونه کارهای بروشور نهال آی تی</h2>
           <div className="flex items-center justify-center gap-x-8 mt-8">

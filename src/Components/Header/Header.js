@@ -336,7 +336,7 @@ const Header = () => {
                       <Link to="/Catalog" className="px-4 py-1">
                         <p>نمونه کار کاتالوگ</p>
                       </Link>
-                      <Link className="px-4 py-1">
+                      <Link to="/BusinessCard" className="px-4 py-1">
                         <p>نمونه کار کارت ویزیت</p>
                       </Link>
                       <Link className="px-4 py-1">

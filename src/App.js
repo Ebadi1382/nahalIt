@@ -14,6 +14,7 @@ import UI_UX from "./page/UI_UX/UI_UX";
 import Brochure from "./page/Brochure/Brochure";
 import Poster from "./page/Poster/Poster";
 import Catalog from "./page/Catalog/Catalog";
+import BusinessCard from "./page/Business_Card/BusinessCard";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/Brochure" element={<Brochure />} />
           <Route path="/Poster" element={<Poster />} />
           <Route path="/Catalog" element={<Catalog />} />
+          <Route path="/BusinessCard" element={<BusinessCard />} />
         </Routes>
       </div>
       {/* <ToastContainer
