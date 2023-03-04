@@ -344,9 +344,9 @@ const Header = () => {
                       </Link>
                     </div>
                   </li>
-                  <Link>
+                  <Link to="/Premiere">
                     <li className="flex items-center justify-start py-3">
-                      <p>پلاگین وردپرس</p>
+                      <p>نمونه کار پریمیر</p>
                     </li>
                   </Link>
                   <Link>
