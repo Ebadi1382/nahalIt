@@ -371,7 +371,7 @@ const Header = () => {
                       </div>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Aplication">
                     <li className="flex items-center justify-between py-3">
                       <p>نمونه کار اپلیکیشن</p>
                     </li>
@@ -510,8 +510,8 @@ const Header = () => {
               onMouseEnter={clickEntershowslide4}
               className={
                 showSlide4
-                  ? "container w-96 px-5 mx-auto absolute shadow-[1px_1px_10px_rgba(0,0,0,.25)] py-6 top-12 -right-36 transition-all duration-700"
-                  : "container w-96 px-5 mx-auto absolute opacity-0 -right-36 -translate-y-[50rem] transition-all duration-700"
+                  ? "container bg-white w-96 px-5 mx-auto absolute shadow-[1px_1px_10px_rgba(0,0,0,.25)] py-6 top-12 -right-36 transition-all duration-700"
+                  : "container bg-white w-96 px-5 mx-auto absolute opacity-0 -right-36 -translate-y-[50rem] transition-all duration-700"
               }
             >
               <p className="pb-3 text-center">برای مشاهده لیست علاقه مندی ها وارد شوید</p>
@@ -532,8 +532,8 @@ const Header = () => {
             <div
               className={
                 showSlide5
-                  ? "container flex flex-col justify-around w-80 h-28 px-5 mx-auto absolute shadow-[1px_1px_10px_rgba(0,0,0,.25)] top-10 -right-36 transition-all duration-700"
-                  : "container w-80 px-5 mx-auto absolute opacity-0 -right-36 -translate-y-[50rem] top-10 transition-all duration-700"
+                  ? "container bg-white flex flex-col justify-around w-80 h-28 px-5 mx-auto absolute shadow-[1px_1px_10px_rgba(0,0,0,.25)] top-10 -right-36 transition-all duration-700"
+                  : "container bg-white w-80 h-28 px-5 mx-auto absolute opacity-0 -right-36 -translate-y-[50rem] top-10 transition-all duration-700"
               }
             >
               <div className="flex justify-between items-center pt-2">

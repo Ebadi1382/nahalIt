@@ -39,7 +39,7 @@ const Order = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#f5f5f9] pt-20 mb-10">
+      <section className="bg-[#f5f5f9] pt-20 pb-10 relative -z-50">
         <div className="container px-48 mx-auto flex justify-between">
           <form className="flex flex-col items-start justify-center gap-y-2">
             <label htmlFor="name">نام</label>

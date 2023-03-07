@@ -18,6 +18,7 @@ import BusinessCard from "./page/Business_Card/BusinessCard";
 import Logo from "./page/Logo/Logo";
 import Premiere from "./page/Premiere/Premiere";
 import WebsiteDesignPortfolio from "./page/WebsiteDesignPortfolio/WebsiteDesignPortfolio";
+import Aplication from "./page/Aplication/Aplication";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/Logo" element={<Logo />} />
           <Route path="/Premiere" element={<Premiere />} />
           <Route path="/WebsiteDesignPortfolio" element={<WebsiteDesignPortfolio />} />
+          <Route path="/Aplication" element={<Aplication />} />
         </Routes>
       </div>
       {/* <ToastContainer
