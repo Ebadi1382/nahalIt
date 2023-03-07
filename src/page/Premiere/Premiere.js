@@ -8,7 +8,7 @@ const Premiere = () => {
       <header>
         <Header />
       </header>
-      <div className="bg-[#f5f5f9] pt-10 pb-10">
+      <div className="bg-[#f5f5f9] pt-10 pb-10 relative -z-10">
         <div className="container px-48 mx-auto">
           <h2 className="font-[shabnamBold] text-4xl px-12 tracking-tighter">نمونه کارهای پریمیر</h2>
           <div className="flex items-center justify-center gap-5 mt-5">
@@ -430,7 +430,7 @@ const Premiere = () => {
         </div>
       </div>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </main>
   );

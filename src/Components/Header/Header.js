@@ -161,7 +161,7 @@ const Header = () => {
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
-                <ul className="p-5">
+                <ul className="p-5 bg-white">
                   <li
                     className="flex items-center justify-between py-3"
                     onMouseEnter={clickEntershowslide6}
@@ -175,8 +175,8 @@ const Header = () => {
                         onMouseEnter={clickEntershowslide6}
                         className={
                           showSlide6
-                            ? "absolute -left-[19rem] -top-4 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex items-center justify-center transition-all duration-500"
-                            : "absolute -left-[19rem] -top-4 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                            ? "absolute bg-white -left-[19rem] -top-4 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex items-center justify-center transition-all duration-500"
+                            : "absolute bg-white -left-[19rem] -top-4 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                         }
                       >
                         <Link>سایت آماده لاراول</Link>
@@ -195,8 +195,8 @@ const Header = () => {
                       onMouseEnter={clickEntershowslide7}
                       className={
                         showSlide7
-                          ? "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                          : "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                          ? "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                          : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
                       <Link className="px-4 py-1">
@@ -221,8 +221,8 @@ const Header = () => {
                       onMouseEnter={clickEntershowslide8}
                       className={
                         showSlide8
-                          ? "absolute -left-[12.7rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                          : "absolute -left-[12.7rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                          ? "absolute bg-white -left-[12.7rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                          : "absolute bg-white -left-[12.7rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
                       <Link className="px-4 py-1">
@@ -250,8 +250,8 @@ const Header = () => {
                       onMouseEnter={clickEntershowslide9}
                       className={
                         showSlide9
-                          ? "absolute -left-[13.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                          : "absolute -left-[13.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                          ? "absolute bg-white -left-[13.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                          : "absolute bg-white -left-[13.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
                       <Link className="px-4 py-1">
@@ -270,8 +270,8 @@ const Header = () => {
                       onMouseEnter={clickEntershowslide10}
                       className={
                         showSlide10
-                          ? "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                          : "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                          ? "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                          : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
                       <Link className="px-4 py-1">
@@ -305,7 +305,7 @@ const Header = () => {
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
-                <ul className="p-5">
+                <ul className="p-5 bg-white">
                   <li
                     className="flex items-center justify-between py-3 relative"
                     onMouseEnter={clickEntershowslide11}
@@ -317,8 +317,8 @@ const Header = () => {
                       onMouseEnter={clickEntershowslide11}
                       className={
                         showSlide11
-                          ? "absolute -left-[15.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                          : "absolute -left-[15.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                          ? "absolute bg-white -left-[15.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                          : "absolute bg-white -left-[15.3rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                       }
                     >
                       <Link to="/MotionGraphics" className="px-4 py-1">
@@ -349,7 +349,7 @@ const Header = () => {
                       <p>نمونه کار پریمیر</p>
                     </li>
                   </Link>
-                  <Link to="WebsiteDesignPortfolio">
+                  <Link to="/WebsiteDesignPortfolio">
                     <li
                       className="flex items-center justify-between py-3 relative"
                       onMouseEnter={clickEntershowslide12}
@@ -361,8 +361,8 @@ const Header = () => {
                         onMouseEnter={clickEntershowslide12}
                         className={
                           showSlide12
-                            ? "absolute -left-[12.2rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                            : "absolute -left-[12.2rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                            ? "absolute bg-white -left-[12.2rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                            : "absolute bg-white -left-[12.2rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                         }
                       >
                         <Link className="px-4 py-1">
@@ -411,7 +411,7 @@ const Header = () => {
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
-                <ul className="p-5">
+                <ul className="p-5 bg-white">
                   <Link>
                     <li className="flex items-center justify-start py-3">
                       <p>فروش سایت اختصاصی و اقتصادی</p>
@@ -474,8 +474,8 @@ const Header = () => {
                         onMouseEnter={clickEntershowslide13}
                         className={
                           showSlide13
-                            ? "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                            : "absolute -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                            ? "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                            : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                         }
                       >
                         <Link className="px-4 py-1">
