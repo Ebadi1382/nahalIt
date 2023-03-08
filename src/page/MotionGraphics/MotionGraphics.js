@@ -8,7 +8,7 @@ const MotionGraphics = () => {
       <header>
         <Header />
       </header>
-      <div className="bg-[#f5f5f9] relative -z-10">
+      <div className="bg-[#f5f5f9]">
         <div className="container px-52 mx-auto pt-14 mt-1 pb-24">
           <h2 className="mb-10 font-[shabnamMedium] tracking-tighter text-4xl">نمونه کار موشن گرافیک</h2>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-12">

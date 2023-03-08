@@ -381,7 +381,7 @@ const Header = () => {
                       <p>نمونه کار سئو</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Voicing">
                     <li className="flex items-center justify-between py-3">
                       <p>نمونه کار تدوین و صدا گذاری</p>
                     </li>

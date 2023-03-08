@@ -21,6 +21,7 @@ import Premiere from "./page/Premiere/Premiere";
 import WebsiteDesignPortfolio from "./page/WebsiteDesignPortfolio/WebsiteDesignPortfolio";
 import Aplication from "./page/Aplication/Aplication";
 import Seo from "./page/Seo/Seo";
+import Voicing from "./page/Voicing/Voicing";
 
 const App = () => {
   return (
@@ -43,21 +44,9 @@ const App = () => {
           <Route path="/WebsiteDesignPortfolio" element={<WebsiteDesignPortfolio />} />
           <Route path="/Aplication" element={<Aplication />} />
           <Route path="/Seo" element={<Seo />} />
+          <Route path="/Voicing" element={<Voicing />} />
         </Routes>
       </div>
-      {/* <ToastContainer
-      position="top-right"
-      autoClose={5000}
-      limit={1}
-      hideProgressBar={false}
-      newestOnTop={false}
-      closeOnClick
-      rtl={false}
-      pauseOnFocusLoss
-      draggable
-      pauseOnHover
-      theme="dark"
-    /> */}
     </BrowserRouter>
   );
 };
