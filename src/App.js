@@ -2,9 +2,10 @@ import React from "react";
 import Home from "./page/Home/Home";
 import "./App.css";
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/effect-cards";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Order from "./page/Order/Order";
 import Recruitment from "./page/Recruitment/Recruitment";
@@ -19,6 +20,7 @@ import Logo from "./page/Logo/Logo";
 import Premiere from "./page/Premiere/Premiere";
 import WebsiteDesignPortfolio from "./page/WebsiteDesignPortfolio/WebsiteDesignPortfolio";
 import Aplication from "./page/Aplication/Aplication";
+import Seo from "./page/Seo/Seo";
 
 const App = () => {
   return (
@@ -40,6 +42,7 @@ const App = () => {
           <Route path="/Premiere" element={<Premiere />} />
           <Route path="/WebsiteDesignPortfolio" element={<WebsiteDesignPortfolio />} />
           <Route path="/Aplication" element={<Aplication />} />
+          <Route path="/Seo" element={<Seo />} />
         </Routes>
       </div>
       {/* <ToastContainer

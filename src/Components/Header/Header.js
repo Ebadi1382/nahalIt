@@ -376,7 +376,7 @@ const Header = () => {
                       <p>نمونه کار اپلیکیشن</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Seo">
                     <li className="flex items-center justify-between py-3">
                       <p>نمونه کار سئو</p>
                     </li>
