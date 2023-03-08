@@ -34,6 +34,7 @@ import SmotionGhraphic from "./page/SmotionGhraphic/SmotionGhraphic";
 import Sproposal from "./page/Sproposal/Sproposal";
 import Spremier from "./page/Spremier/Spremier";
 import Sgraphic from "./page/Sgraphic/Sgraphic";
+import ContactUs from "./page/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -69,6 +70,7 @@ const App = () => {
           <Route path="/Sproposal" element={<Sproposal />} />
           <Route path="/Spremier" element={<Spremier />} />
           <Route path="/Sgraphic" element={<Sgraphic />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </div>
     </BrowserRouter>
