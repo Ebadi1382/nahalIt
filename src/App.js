@@ -22,6 +22,18 @@ import WebsiteDesignPortfolio from "./page/WebsiteDesignPortfolio/WebsiteDesignP
 import Aplication from "./page/Aplication/Aplication";
 import Seo from "./page/Seo/Seo";
 import Voicing from "./page/Voicing/Voicing";
+import Saplication from "./page/S_Aplication/Saplication";
+import SsoundEditing from "./page/SsoundEditing/SsoundEditing";
+import EecoSaleWeb from "./page/EecoSaleWeb/EecoSaleWeb";
+import SsaleWebExclusive from "./page/SsaleWebExclusive/SsaleWebExclusive";
+import SsaleWeb from "./page/SsaleWeb/SsaleWeb";
+import Sseo from "./page/Sseo/Sseo";
+import SworkService from "./page/SworkService/SworkService";
+import SsocialMedia from "./page/SsocialMedia/SsocialMedia";
+import SmotionGhraphic from "./page/SmotionGhraphic/SmotionGhraphic";
+import Sproposal from "./page/Sproposal/Sproposal";
+import Spremier from "./page/Spremier/Spremier";
+import Sgraphic from "./page/Sgraphic/Sgraphic";
 
 const App = () => {
   return (
@@ -45,6 +57,18 @@ const App = () => {
           <Route path="/Aplication" element={<Aplication />} />
           <Route path="/Seo" element={<Seo />} />
           <Route path="/Voicing" element={<Voicing />} />
+          <Route path="/S_Aplication" element={<Saplication />} />
+          <Route path="/SsoundEditing" element={<SsoundEditing />} />
+          <Route path="/EecoSaleWeb" element={<EecoSaleWeb />} />
+          <Route path="/SsaleWebExclusive" element={<SsaleWebExclusive />} />
+          <Route path="/SsaleWeb" element={<SsaleWeb />} />
+          <Route path="/Sseo" element={<Sseo />} />
+          <Route path="/SworkService" element={<SworkService />} />
+          <Route path="/SsocialMedia" element={<SsocialMedia />} />
+          <Route path="/SmotionGhraphic" element={<SmotionGhraphic />} />
+          <Route path="/Sproposal" element={<Sproposal />} />
+          <Route path="/Spremier" element={<Spremier />} />
+          <Route path="/Sgraphic" element={<Sgraphic />} />
         </Routes>
       </div>
     </BrowserRouter>

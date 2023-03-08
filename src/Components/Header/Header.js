@@ -412,63 +412,63 @@ const Header = () => {
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
                 <ul className="p-5 bg-white">
-                  <Link>
+                  <Link to="/EecoSaleWeb">
                     <li className="flex items-center justify-start py-3">
                       <p>فروش سایت اختصاصی و اقتصادی</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/SsaleWeb">
                     <li className="flex items-center justify-start py-3">
                       <p>فروش قالب سایت</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/SsaleWebExclusive">
                     <li className="flex items-center justify-start py-3">
                       <p>طراحی سایت اختصاصی</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Sseo">
                     <li className="flex items-center justify-start py-3">
                       <p>خدمات وبسایت و سئو وب سایت</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/SworkService">
                     <li className="flex items-center justify-start py-3">
                       <p>خدمات کسب و کار</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/SsocialMedia">
                     <li className="flex items-center justify-start py-3">
                       <p>خدمات شبکه های اجتماعی</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/SmotionGhraphic">
                     <li className="flex items-center justify-start py-3">
                       <p>موشن گرافیک</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Sproposal">
                     <li className="flex items-center justify-start py-3">
                       <p>تدوین پروپوزال</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/S_Aplication">
                     <li className="flex items-center justify-start py-3">
                       <p>اپلیکیشن موبایل</p>
                     </li>
                   </Link>
-                  <Link>
+                  <Link to="/Spremier">
                     <li className="flex items-center justify-start py-3">
                       <p>خدمات پریمیر، تدوین فیلم</p>
                     </li>
                   </Link>
-                  <Link>
+                  <div>
                     <li
                       className="flex items-center justify-between py-3 relative"
                       onMouseEnter={clickEntershowslide13}
                       onMouseLeave={clickoutshowslide13}
                     >
-                      <p>خدمات تدوین صدا و صداگذاری</p>
+                      <Link to="/SsoundEditing">خدمات تدوین صدا و صداگذاری</Link>
                       <MdKeyboardArrowLeft />
                       <div
                         onMouseEnter={clickEntershowslide13}
@@ -478,12 +478,12 @@ const Header = () => {
                             : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                         }
                       >
-                        <Link className="px-4 py-1">
+                        <Link to="/Sgraphic" className="px-4 py-1">
                           <p>خدمات گرافیکی</p>
                         </Link>
                       </div>
                     </li>
-                  </Link>
+                  </div>
                 </ul>
               </div>
             </li>

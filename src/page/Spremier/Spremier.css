@@ -1,0 +1,72 @@
+.premierEditing-content > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.premierEditing-content > div > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.premierEditing-content > div
+{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.premierEditing-content > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    line-height: 2.1rem;
+} 
+.premierEditing-content > div > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    line-height: 2.1rem;
+} 
+.premierEditing-content > div > div > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    line-height: 2.1rem;
+}
+.premierEditing-content > div > div > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.premierEditing-content
+{
+    direction: rtl;
+    overflow: hidden;
+} 
+b
+{
+    color: #404040;
+    font-weight: bolder;
+    font-family: IranSans-b;
+}
+.editing-video-Services > div > span
+{
+    font-family: IranSans-r !important;
+    font-weight: 100;
+    font-size: 0.89999rem;
+    line-height: 2rem;
+    color: rgb(87, 87, 87);
+}
+.editing-video-Services > div
+{
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+li
+{
+    font-size:0.9rem;
+    color: #636363;
+    line-height: 2.1rem;
+}

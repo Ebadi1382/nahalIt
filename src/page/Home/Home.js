@@ -33,16 +33,16 @@ const Home = () => {
         <section className="mt-14">
           <ServicesHomePage />
         </section>
-        <section className="mt-14 relative -z-50">
+        <section className="mt-14">
           <CustomSlider />
         </section>
-        <section className="mt-8 relative -z-50">
+        <section className="mt-8">
           <AboutSite />
         </section>
         <section className="mt-32">
           <OurProuduct />
         </section>
-        <section className="mt-14 relative -z-50">
+        <section className="mt-14">
           <CustomSlider2 />
         </section>
         <section className="mt-24">

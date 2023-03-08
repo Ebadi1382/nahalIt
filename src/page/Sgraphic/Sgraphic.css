@@ -1,0 +1,74 @@
+.Graphic-content > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.Graphic-content > div > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.Graphic-content > div
+{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.Graphic-content > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    text-align: right;
+    line-height: 2.1rem;
+} 
+.Graphic-content > div > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    text-align: right;
+    line-height: 2.1rem;
+} 
+.Graphic-content > div > div > div > p
+{
+    font-size:0.9rem;
+    color: #636363;
+    text-align: right;
+    line-height: 2.1rem;
+}
+.Graphic-content > div > div > div > h1,h2,h3,h4,h5,h6
+{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.Graphic-content
+{
+    direction: rtl;
+    overflow: hidden;
+} 
+b
+{
+    color: #404040;
+    font-weight: bolder;
+    font-family: IranSans-b;
+}
+.graphic-services > div
+{
+    width: 30%;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+}
+.graphic-services > div > img
+{
+    width: 10rem;
+}
+.graphic-services > div > p
+{
+    font-family: IranSans-r;
+    color: gray;
+}
+img[alt='characterIcon']
+{
+    width: 8rem !important;
+}

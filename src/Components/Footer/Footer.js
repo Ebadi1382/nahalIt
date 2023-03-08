@@ -113,21 +113,21 @@ const Footer = () => {
       </div>
       <div className="w-[80%] h-[1px] bg-[#949494] mx-auto mt-10"></div>
       <div className="container px-36 mx-auto mt-10 tracking-tighter flex justify-between items-center">
-        <ul className="flex items-center gap-x-10">
+        <ul className="flex items-center justify-start">
           <li>
-            <Link>درباره ما</Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">درباره ما</Link>
           </li>
           <li>
-            <Link>تماس با ما</Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">تماس با ما</Link>
           </li>
           <li>
-            <Link>وبلاگ</Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">وبلاگ</Link>
           </li>
           <li>
-            <Link>حساب کاربری من</Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">حساب کاربری من</Link>
           </li>
           <li>
-            <Link>فروشگاه</Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">فروشگاه</Link>
           </li>
         </ul>
         <div className="flex items-center justify-center gap-x-1">

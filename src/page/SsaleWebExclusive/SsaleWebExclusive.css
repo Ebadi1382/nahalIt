@@ -1,0 +1,60 @@
+.ExWebDesign-content > div > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+.ExWebDesign-content > div > div > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+.ExWebDesign-content > div {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.ExWebDesign-content > div > p {
+  font-size: 0.9rem;
+  color: #636363;
+  text-align: right;
+  line-height: 2.1rem;
+}
+.ExWebDesign-content > div > div > p {
+  font-size: 0.9rem;
+  color: #636363;
+  text-align: right;
+  line-height: 2.1rem;
+}
+.ExWebDesign-content > div > div > div > p {
+  font-size: 0.9rem;
+  color: #636363;
+  text-align: right;
+  line-height: 2.1rem;
+}
+.ExWebDesign-content > div > div > div > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+.ExWebDesign-content {
+  direction: rtl;
+  overflow: hidden;
+}
+b {
+  color: #000000;
+  font-family: IranSans-b;
+}
