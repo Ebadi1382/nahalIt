@@ -1,7 +1,7 @@
 import React from "react";
 import AboutSite from "../../Components/AboutSite/AboutSite";
 import CustomSlider from "../../Components/CustomSlider/CustomSlider";
-import CustomSlider2 from "../../Components/CustomSlider2/CustomSlider2"
+import CustomSlider2 from "../../Components/CustomSlider2/CustomSlider2";
 import Details from "../../Components/Details/Details";
 import Header from "../../Components/Header/Header";
 import LotteryHomePage from "../../Components/LotteryHomePage/LotteryHomePage";
@@ -11,6 +11,7 @@ import Search from "../../Components/Search/Search";
 import ServicesHomePage from "../../Components/ServicesHomePage/ServicesHomePage";
 import SliderSwiper from "../../Components/SliderSwiper/SliderSwiper";
 import Footer from "../../Components/Footer/Footer";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 const Home = () => {
   return (
@@ -51,9 +52,12 @@ const Home = () => {
         <section className="mt-14">
           <Details />
         </section>
-        <section className="mt-14">
+        <div>
+          <FixedIcon />
+        </div>
+        <footer className="mt-14">
           <Footer />
-        </section>
+        </footer>
       </main>
     </div>
   );

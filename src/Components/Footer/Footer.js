@@ -10,7 +10,7 @@ import { BsYoutube } from "react-icons/bs";
 import { SiAparat } from "react-icons/si";
 import { FaServer } from "react-icons/fa";
 import { HiCode } from "react-icons/hi";
-import { BiShoppingBag } from "react-icons/bi";
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -115,12 +115,12 @@ const Footer = () => {
       <div className="container px-36 mx-auto mt-10 tracking-tighter flex justify-between items-center">
         <ul className="flex items-center justify-start">
           <li>
-            <Link to="/ContactUs" className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">
-              درباره ما
-            </Link>
+            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">درباره ما</Link>
           </li>
           <li>
-            <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">تماس با ما</Link>
+            <Link to="/ContactUs" className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">
+              تماس با ما
+            </Link>
           </li>
           <li>
             <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">وبلاگ</Link>
@@ -153,12 +153,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <Link to="/">
-        <BiShoppingBag className="w-14 h-14 fixed z-[999] bottom-10 right-10 bg-[#227e1f] hover:bg-[#2d9b29] transition-all duration-200 text-white p-2 rounded-full" />
-        <span className="w-7 h-7 bg-[#035e0b] fixed z-[1000] bottom-[4.5rem] right-[5.2rem] flex items-center justify-center text-white rounded-full">
-          0
-        </span>
-      </Link>
     </div>
   );
 };

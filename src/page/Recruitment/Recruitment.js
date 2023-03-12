@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -184,13 +185,19 @@ const Recruitment = () => {
                   placeholder="شماره شبا بانکی خود را بدون IR وارد کنید"
                   className="py-2 border border-solid border-[#cecece] outline-none px-2"
                 />
-                <button type="button" className="bg-[#e3e3e3] self-start px-4 py-2 border border-solid border-[#cccccc] hover:bg-[#d3d3d3] transition-all duration-200">
+                <button
+                  type="button"
+                  className="bg-[#e3e3e3] self-start px-4 py-2 border border-solid border-[#cccccc] hover:bg-[#d3d3d3] transition-all duration-200"
+                >
                   ثبت
                 </button>
               </form>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

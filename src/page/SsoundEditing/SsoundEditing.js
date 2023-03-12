@@ -14,6 +14,7 @@ import img_8 from "../../assets/img/SoundEditing/تعرفه-تدوین-صدا2-m
 import front_1 from "../../assets/img/frm-thbt-sfarsh-transformed-min.png";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 function SsoundEditing() {
   return (
@@ -267,6 +268,9 @@ function SsoundEditing() {
             <img src={front_1} alt="front" className="w-96" />
           </motion.div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

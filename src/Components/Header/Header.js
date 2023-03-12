@@ -300,8 +300,8 @@ const Header = () => {
                 onMouseEnter={clickEntershowslide2}
                 className={
                   showSlide2
-                    ? "w-56 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all duration-500"
-                    : "w-56 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
+                    ? "w-56 z-50 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all duration-500"
+                    : "w-56 z-50 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
@@ -406,65 +406,65 @@ const Header = () => {
                 onMouseEnter={clickEntershowslide3}
                 className={
                   showSlide3
-                    ? "w-64 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all duration-500"
-                    : "w-64 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
+                    ? "w-64 z-50 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] transition-all duration-500"
+                    : "w-64 z-50 absolute top-9 shadow-[1px_1px_10px_rgba(0,0,0,.25)] opacity-0 -translate-y-[50rem] transition-all duration-500"
                 }
               >
                 <div className="bg-[#07B235] h-[2px] absolute top-0 right-0 left-0 text-center"></div>
-                <ul className="p-5 bg-white">
+                <ul className="px-5 py-0 bg-white">
                   <Link to="/EecoSaleWeb">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>فروش سایت اختصاصی و اقتصادی</p>
                     </li>
                   </Link>
                   <Link to="/SsaleWeb">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>فروش قالب سایت</p>
                     </li>
                   </Link>
                   <Link to="/SsaleWebExclusive">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>طراحی سایت اختصاصی</p>
                     </li>
                   </Link>
                   <Link to="/Sseo">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>خدمات وبسایت و سئو وب سایت</p>
                     </li>
                   </Link>
                   <Link to="/SworkService">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>خدمات کسب و کار</p>
                     </li>
                   </Link>
                   <Link to="/SsocialMedia">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>خدمات شبکه های اجتماعی</p>
                     </li>
                   </Link>
                   <Link to="/SmotionGhraphic">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>موشن گرافیک</p>
                     </li>
                   </Link>
                   <Link to="/Sproposal">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>تدوین پروپوزال</p>
                     </li>
                   </Link>
                   <Link to="/S_Aplication">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>اپلیکیشن موبایل</p>
                     </li>
                   </Link>
                   <Link to="/Spremier">
-                    <li className="flex items-center justify-start py-3">
+                    <li className="flex items-center justify-start py-1">
                       <p>خدمات پریمیر، تدوین فیلم</p>
                     </li>
                   </Link>
                   <div>
                     <li
-                      className="flex items-center justify-between py-3 relative"
+                      className="flex items-center justify-between py-1 relative"
                       onMouseEnter={clickEntershowslide13}
                       onMouseLeave={clickoutshowslide13}
                     >
@@ -474,8 +474,8 @@ const Header = () => {
                         onMouseEnter={clickEntershowslide13}
                         className={
                           showSlide13
-                            ? "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
-                            : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-4 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
+                            ? "absolute bg-white -left-[12.5rem] -top-2 px-7 py-1 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center transition-all duration-500"
+                            : "absolute bg-white -left-[12.5rem] -top-2 px-7 py-1 shadow-[1px_1px_10px_rgba(0,0,0,.25)] flex flex-col gap-y-2 items-center justify-center opacity-0 -translate-y-[50rem] transition-all duration-500"
                         }
                       >
                         <Link to="/Sgraphic" className="px-4 py-1">

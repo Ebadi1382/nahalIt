@@ -13,6 +13,7 @@ import tarrif from "../../assets/img/Business/تعرفه-خدمات-کسب-و-ک
 import front_1 from "../../assets/img/frm-thbt-sfarsh-transformed-min.png";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 function SworkService() {
   return (
@@ -238,6 +239,9 @@ function SworkService() {
           </div>
           <img src={front_1} alt="front" className="w-80" />
         </motion.div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

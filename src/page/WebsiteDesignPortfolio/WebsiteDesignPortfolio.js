@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -23,6 +24,9 @@ const WebsiteDesignPortfolio = () => {
             alt="image_portfolio"
           />
         </Link>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

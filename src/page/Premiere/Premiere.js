@@ -1,4 +1,5 @@
 import React from "react";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -428,6 +429,9 @@ const Premiere = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

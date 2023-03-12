@@ -12,6 +12,7 @@ import serviceImg from "../../assets/img/Ec_Ex_Website/خدمات-کامپیوت
 import { motion } from "framer-motion";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 function EecoSaleWeb() {
   return (
@@ -342,6 +343,9 @@ function EecoSaleWeb() {
             </div>
           </motion.div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -56,8 +57,11 @@ const Aplication = () => {
           </div>
         </div>
       </div>
+      <div>
+        <FixedIcon />
+      </div>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </main>
   );

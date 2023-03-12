@@ -1,4 +1,5 @@
 import React from "react";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -379,6 +380,9 @@ const Poster = () => {
             <img alt="Poster_Img" width={250} src="https://nahalit.com/wp-content/uploads/2022/11/7-min-1024x724.jpg" />
           </div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

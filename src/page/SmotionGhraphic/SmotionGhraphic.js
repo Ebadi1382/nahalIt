@@ -12,6 +12,7 @@ import front_1 from "../../assets/img/frm-thbt-sfarsh-transformed-min.png";
 import front_2 from "../../assets/img/SaleReadyTemplate/خدمات-کامپیوتر.png";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 function SmotionGhraphic() {
   return (
@@ -360,6 +361,9 @@ function SmotionGhraphic() {
             <img src={front_2} alt="front" className="w-80" />
           </motion.div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

@@ -9,6 +9,7 @@ import { FaVideo } from "react-icons/fa";
 import { FaMicrophone } from "react-icons/fa";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 
 function ContactUs() {
   return (
@@ -80,6 +81,9 @@ function ContactUs() {
             تهران - میدان فردوسی - خیابان ایرانشهر - بین سمیه و طالقانی - مجتمع تجاری میلاد - طبقه ۵ - واحد ۹
           </Link>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -98,6 +99,9 @@ const Order = () => {
           </div>
         </div>
       </section>
+      <div>
+        <FixedIcon />
+      </div>
       <footer>
         <Footer />
       </footer>

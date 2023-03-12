@@ -1,4 +1,5 @@
 import React from "react";
+import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
@@ -8,7 +9,7 @@ const MotionGraphics = () => {
       <header>
         <Header />
       </header>
-      <div className="bg-[#f5f5f9]">
+      <div className="bg-[#f5f5f9] z-0">
         <div className="container px-52 mx-auto pt-14 mt-1 pb-24">
           <h2 className="mb-10 font-[shabnamMedium] tracking-tighter text-4xl">نمونه کار موشن گرافیک</h2>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-12">
@@ -645,6 +646,9 @@ const MotionGraphics = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <FixedIcon />
       </div>
       <footer>
         <Footer />
