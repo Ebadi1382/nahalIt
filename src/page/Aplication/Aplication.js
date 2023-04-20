@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const Aplication = () => {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="container px-48 mx-auto mb-10">
         <div>

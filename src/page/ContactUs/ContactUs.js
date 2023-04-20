@@ -10,12 +10,18 @@ import { FaMicrophone } from "react-icons/fa";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 function ContactUs() {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="flex flex-col w-full container px-28 mx-auto">
         <div className="flex flex-col gap-8 p-20 text-gray-4444 items-start ">

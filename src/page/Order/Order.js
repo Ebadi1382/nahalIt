@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const Order = () => {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <section className="bg-[#f5f5f9] mt-1">
         <div className="container px-56 mx-auto">

@@ -14,12 +14,18 @@ import front_2 from "../../assets/img/SaleReadyTemplate/خدمات-کامپیو�
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 function SsaleWeb() {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="flex flex-col SaleReadyTemplate items-center gap-10 justify-center pt-2 pb-10 bg-[#f5f5f9]">
         <div className="flex flex-col gap-10 item-center justify-center container px-48 mx-auto">

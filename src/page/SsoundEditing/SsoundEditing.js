@@ -15,12 +15,18 @@ import front_1 from "../../assets/img/frm-thbt-sfarsh-transformed-min.png";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 function SsoundEditing() {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="soundEditing-content flex flex-col items-center gap-10 pb-10 pt-2 bg-[#f5f5f9]">
         <div className="flex flex-col gap-10 container mx-auto px-48">

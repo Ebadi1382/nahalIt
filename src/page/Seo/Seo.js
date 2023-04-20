@@ -2,12 +2,18 @@ import React from "react";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const Seo = () => {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="flex items-start justify-around bg-[#f5f5f9] mt-1 pb-10 pt-10">
         <div className="flex flex-col items-center justify-center gap-3">

@@ -4,12 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const SliderSwiper = () => {
   return (
-    <div className="relative -z-50 container px-48 mx-auto">
+    <div className="relative -z-50 px-48 max-lg:px-28 max-sm:px-20 max-[450px]:px-14 mx-auto">
       <Swiper
         className="mt-[1rem]"
         modules={[Navigation, A11y, Autoplay, Pagination, EffectCards]}
-        navigation
-        pagination={{ clickable: true }}
         effect="cards"
         slidesPerView={1}
         autoplay={{ delay: 2000, disableOnInteraction: false }}

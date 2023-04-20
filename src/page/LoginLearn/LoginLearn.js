@@ -2,12 +2,18 @@ import React from "react";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const LoginLearn = () => {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="container px-48 mx-auto flex flex-col items-center justify-center mt-10 mb-20">
         <h2 className="text-center font-[shabnamBold] text-xl mb-8">آموزش نحوه ورود و ثبت نام در وبسایت نهال آی تی</h2>

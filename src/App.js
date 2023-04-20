@@ -35,11 +35,12 @@ import Sproposal from "./page/Sproposal/Sproposal";
 import Spremier from "./page/Spremier/Spremier";
 import Sgraphic from "./page/Sgraphic/Sgraphic";
 import ContactUs from "./page/ContactUs/ContactUs";
+import ScrollToTophg from "./Components/ScrollToTop/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
-      {/* <ScrollToTop /> */}
+      <ScrollToTophg />
       <div className="app">
         <Routes>
           <Route path="/" element={<Home />} />

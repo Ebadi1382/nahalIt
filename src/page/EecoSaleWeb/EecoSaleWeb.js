@@ -13,12 +13,18 @@ import { motion } from "framer-motion";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 function EecoSaleWeb() {
   return (
     <main>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="flex flex-col gap-7 ExEcWebsite-content pb-10 pt-2 bg-[#f5f5f9]">
         <div className="container px-48 mx-auto">

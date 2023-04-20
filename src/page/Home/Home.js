@@ -12,13 +12,18 @@ import ServicesHomePage from "../../Components/ServicesHomePage/ServicesHomePage
 import SliderSwiper from "../../Components/SliderSwiper/SliderSwiper";
 import Footer from "../../Components/Footer/Footer";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const Home = () => {
   return (
     <div>
       <header>
-        {/* problem in respnsive */}
+        <div className="max-lg:hidden">
         <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader/>
+        </div>
       </header>
       <main>
         <section>

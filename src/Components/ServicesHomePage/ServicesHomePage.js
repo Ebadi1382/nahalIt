@@ -15,11 +15,11 @@ import { Link } from "react-router-dom";
 
 const ServicesHomePage = () => {
   return (
-    <div className="container px-48 mx-auto">
+    <div className="container px-48 max-xl:px-24 max-lg:px-20 max-md:px-10 max-sm:px-2 mx-auto">
       <div>
-        <img src="https://nahalit.com/wp-content/uploads/2022/12/Untitled-1.jpg" width={200} alt="image_ServicesHomePage" />
+        <img src="https://nahalit.com/wp-content/uploads/2022/12/Untitled-1.jpg" className="w-[12rem] max-lg:w-[10rem] max-sm:w-[8rem]" alt="image_ServicesHomePage" />
       </div>
-      <div className="flex items-center justify-center flex-wrap gap-x-5 gap-y-10">
+      <div className="flex items-center justify-center flex-wrap gap-x-5 gap-y-10 max-lg:gap-y-3">
         <div className="flex flex-col gap-y-4 items-center justify-center w-[22rem]">
           <Link className="flex items-center justify-center">
             <SiFirefoxbrowser className="text-[#818a91] text-6xl" />

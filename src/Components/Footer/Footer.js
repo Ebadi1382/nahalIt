@@ -22,9 +22,9 @@ const Footer = () => {
     setFooter(false);
   };
   return (
-    <div className="h-[45rem] absolute text-[#ccc] right-0 left-0 bg-[#223621] whitespace-nowrap container px-48 mx-auto -z-10">
-      <div className="absolute bg-[#55FF51] h-[5px] left-0 right-0"></div>
-      <div className="container px-36 mx-auto flex items-start justify-center gap-x-28 text-sm mt-24 tracking-tight">
+    <div className="text-[#ccc] right-0 left-0 bg-[#223621] whitespace-nowrap px-48 max-xl:px-0 mx-auto pt-5 -z-10 pb-8">
+      {/* <div className="absolute bg-[#55FF51] h-[5px] left-0 right-0"></div> */}
+      <div className="container px-36 mx-auto flex items-start justify-center gap-x-28 max-xl:flex-wrap text-sm mt-24 max-xl:gap-y-12 tracking-tight">
         <div className="flex flex-col justify-center items-start gap-y-4">
           <RiSendBackward className="text-6xl text-white" />
           <Link className="font-[shabnamMedium] text-lg" to="/">
@@ -134,20 +134,20 @@ const Footer = () => {
             <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">فروشگاه</Link>
           </li>
         </ul>
-        <div className="flex items-center justify-center gap-x-1">
+        <div className="flex items-center justify-center gap-x-1 max-md:hidden">
           <HiCode
             onMouseEnter={SiteCreateOnEnterMouse}
             onMouseLeave={SiteCreateOnOutMouse}
             className={
               Footer
-                ? "bg-[#57C053] text-white w-9 h-9 p-1 rounded-lg translate-x-20 transition-all duration-500"
+                ? "bg-[#57C053] text-white w-9 h-9 p-1 rounded-lg translate-x-12 transition-all duration-500"
                 : "bg-[#57C053] text-white w-9 h-9 p-1 rounded-lg transition-all duration-500"
             }
           />
           <p
             onMouseEnter={SiteCreateOnEnterMouse}
             onMouseLeave={SiteCreateOnOutMouse}
-            className={Footer ? "translate-x-20 transition-all duration-500" : "opacity-0  transition-all duration-500"}
+            className={Footer ? "translate-x-12 transition-all duration-500" : "opacity-0  transition-all duration-500"}
           >
             توسعه : سرزمین هوشمند
           </p>

@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 import FixedIcon from "../../Components/FixedIcon/FixedIcon";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+import ResponseHeader from "../../Components/ResponseHeader/ResponseHeader";
 
 const Recruitment = () => {
   return (
     <div>
       <header>
-        <Header />
+        <div className="max-lg:hidden">
+          <Header />
+        </div>
+        <div className="lg:hidden">
+          <ResponseHeader />
+        </div>
       </header>
       <div className="bg-[#f5f5f9] mt-2 pb-32">
         <div className="container px-48 mx-auto pt-12 flex justify-between items-start gap-x-12">
