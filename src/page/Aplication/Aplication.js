@@ -16,12 +16,12 @@ const Aplication = () => {
           <ResponseHeader />
         </div>
       </header>
-      <div className="container px-48 mx-auto mb-10">
+      <div className="container px-48 max-lg:px-20 max-md:10 max-sm:0 mx-auto mb-10">
         <div>
-          <h2 className="font-[shabnamBold] px-16 tracking-tighter text-lg mt-9 mb-10">نمونه کار های اندروید</h2>
+          <h2 className="font-[shabnamBold] px-16 tracking-tighter text-lg mt-9 mb-10 whitespace-nowrap flex items-center justify-center">نمونه کار های اندروید</h2>
         </div>
-        <div className="flex items-center justify-around">
-          <div className="flex flex-col items-center justify-center">
+        <div className="flex items-center justify-around max-md:flex-wrap">
+          <div className="flex flex-col items-center justify-center max-md:pb-10">
             <Link>
               <img
                 className="hover:opacity-80 transition-all duration-200"

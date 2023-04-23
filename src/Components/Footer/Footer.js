@@ -112,8 +112,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[80%] h-[1px] bg-[#949494] mx-auto mt-10"></div>
-      <div className="container px-36 mx-auto mt-10 tracking-tighter flex justify-between items-center">
-        <ul className="flex items-center justify-start">
+      <div className="container px-36 mx-auto mt-10 tracking-tighter flex justify-between flex-wrap items-center">
+        <ul className="flex items-center justify-start flex-wrap">
           <li>
             <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">درباره ما</Link>
           </li>
@@ -134,7 +134,7 @@ const Footer = () => {
             <Link className="hover:bg-[#4CA449] px-3 py-2 rounded-md transition-all duration-300 text-[#c5c3c3]">فروشگاه</Link>
           </li>
         </ul>
-        <div className="flex items-center justify-center gap-x-1 max-md:hidden">
+        <div className="flex items-center justify-center gap-x-1">
           <HiCode
             onMouseEnter={SiteCreateOnEnterMouse}
             onMouseLeave={SiteCreateOnOutMouse}
