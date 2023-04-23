@@ -16,7 +16,7 @@ const Catalog = () => {
         </div>
       </header>
       <div className="bg-[#f5f5f9] pt-9 mb-12">
-        <div className="container px-48 mx-auto">
+        <div className="container px-48 max-lg:px-20 max-sm:px-10 mx-auto">
           <div className="flex flex-wrap items-center justify-center gap-8">
             <img
               alt="Imgae_Catalog"
