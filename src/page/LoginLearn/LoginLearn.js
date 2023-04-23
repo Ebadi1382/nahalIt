@@ -15,19 +15,16 @@ const LoginLearn = () => {
           <ResponseHeader />
         </div>
       </header>
-      <div className="container px-48 mx-auto flex flex-col items-center justify-center mt-10 mb-20">
+      <div className="container px-48 max-lg:px-16 max-md:px-8 max-sm:px-5 mx-auto flex flex-col items-center justify-center mt-10 mb-20">
         <h2 className="text-center font-[shabnamBold] text-xl mb-8">آموزش نحوه ورود و ثبت نام در وبسایت نهال آی تی</h2>
-        <div className="w-[100%] h-[40rem] flex items-center justify-center">
-          <span style={{ display: "block", paddingTop: "57%" }}></span>
-          <iframe
-            className="w-full h-full"
-            title="Login_learn"
-            src="https://www.aparat.com/video/video/embed/videohash/yntlK/vt/frame?titleShow=true&startTime=0"
-            allowFullScreen="true"
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-          ></iframe>
-        </div>
+        <iframe
+          className="w-full h-screen max-lg:h-[20rem] max-sm:h-[12rem]"
+          title="Login_learn"
+          src="https://www.aparat.com/video/video/embed/videohash/yntlK/vt/frame?titleShow=true&startTime=0"
+          allowFullScreen="true"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+        ></iframe>
       </div>
       <div>
         <FixedIcon />

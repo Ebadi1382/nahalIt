@@ -27,7 +27,7 @@ function EecoSaleWeb() {
         </div>
       </header>
       <div className="flex flex-col gap-7 ExEcWebsite-content pb-10 pt-2 bg-[#f5f5f9]">
-        <div className="container px-48 mx-auto">
+        <div className="container px-48 max-lg:px-20 mx-auto">
           <div className="flex justify-center items-center">
             <img src={headImg} alt="headImg" className="w-full" />
           </div>
