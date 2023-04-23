@@ -16,9 +16,9 @@ const Logo = () => {
         </div>
       </header>
       <div className="bg-[#f5f5f9] pt-9 pb-12">
-        <div className="container px-48 mx-auto">
+        <div className="container px-48 max-lg:px-20 max-md:px-14 max-sm:px-10 mx-auto">
           <h2 className="font-[shabnamBold] text-4xl px-12">نمونه های لوگو و مهر نهال آی تی</h2>
-          <div className="flex items-center justify-center gap-x-8 mt-8">
+          <div className="flex flex-wrap items-center justify-center gap-x-8 mt-8">
             <img
               alt="image_Brochure"
               width={160}
@@ -46,7 +46,7 @@ const Logo = () => {
               src="https://nahalit.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-15-at-12.45.35.jpeg"
             />
           </div>
-          <div className="flex items-center justify-center gap-x-6 mt-5">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 mt-5">
             <img
               alt="image_Brochure"
               width={350}
