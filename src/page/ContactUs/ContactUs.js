@@ -23,8 +23,8 @@ function ContactUs() {
           <ResponseHeader />
         </div>
       </header>
-      <div className="flex flex-col w-full container px-28 mx-auto">
-        <div className="flex flex-col gap-8 p-20 text-gray-4444 items-start ">
+      <div className="flex flex-col w-full container px-28 max-lg:px-10 max-sm:px-2 mx-auto">
+        <div className="flex flex-col gap-8 p-20 max-lg:p-10 max-sm:p-2 text-gray-4444 items-start ">
           <div className="flex flex-col">
             <span className="font-bold border-b-4 border-green-57C pb-2">تماس با نهال آیتی</span>
             <span className="text-gray-b1b1 tracking-wide pt-2" style={{ letterSpacing: "0.2rem" }}>
