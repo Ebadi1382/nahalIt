@@ -17,28 +17,32 @@ const Order = () => {
         </div>
       </header>
       <section className="bg-[#f5f5f9] mt-1">
-        <div className="container px-56 mx-auto">
+        <div className="container px-56 max-lg:px-20 max-md:px-10 max-sm:px-4 mx-auto">
           <h2 className="font-[shabnamBold] text-lg pt-5 tracking-tight">سفارش طراحی</h2>
           <div>
             <h3 className="font-[shabnamBold] tracking-tighter mt-4">راهنمای سفارش :</h3>
-            <div className="mt-2 flex flex-col gap-y-2 tracking-tight">
-              <p>
+            <div className="mt-2 flex flex-col gap-y-3 max-sm:gap-y-0 tracking-tight">
+              <p className="max-xl:leading-8">
                 شما در ابتدا برای ثبت سفارش خود باید با مراجعه به بخش{" "}
                 <Link to="/" className="font-[shabnamBold] hover:text-[#377AC3] underline">
                   پشتیبانی
                 </Link>{" "}
                 یک تیکت با موضوع سفارش طراحی بدهید .
               </p>
-              <p>
+              <p className="max-xl:leading-8">
                 در بخش پشتیبانی با انتخاب دپارتمان <span className="font-[shabnamBold] underline">ارتباط با نهال آی تی</span> و
                 انتخاب نوع تیکت <span className="font-[shabnamBold] underline">قیمت سفارش طراحی</span> سفارش خود را مطرح نمایید .
               </p>
-              <p>بعد با شرح کامل سفارش طراحی برایمان به طورکامل توضیح دهید .</p>
-              <p>حتی میتوانید با امکان ویس دادن در بخش پشتیبانی ، توضیحات خود را با ویس ارائه دهید .</p>
-              <p>بعد از تیکت ، همکاران ما در بخش پشتیبانی بهای انجام پروژه را برای شما اعلام خواهند کرد .</p>
-              <p>سپس در صورت نداشتن مشکلی اعلام کنید که پروژه اغاز شود .</p>
-              <p>سپس با مراجعه به این صفحه ثبت سفارش را به صورت رسمی انجام دهید .</p>
-              <p>
+              <p className="max-xl:leading-8">بعد با شرح کامل سفارش طراحی برایمان به طورکامل توضیح دهید .</p>
+              <p className="max-xl:leading-8">
+                حتی میتوانید با امکان ویس دادن در بخش پشتیبانی ، توضیحات خود را با ویس ارائه دهید .
+              </p>
+              <p className="max-xl:leading-8">
+                بعد از تیکت ، همکاران ما در بخش پشتیبانی بهای انجام پروژه را برای شما اعلام خواهند کرد .
+              </p>
+              <p className="max-xl:leading-8">سپس در صورت نداشتن مشکلی اعلام کنید که پروژه اغاز شود .</p>
+              <p className="max-xl:leading-8">سپس با مراجعه به این صفحه ثبت سفارش را به صورت رسمی انجام دهید .</p>
+              <p className="max-xl:leading-8">
                 لازم به ذکر است شما می توانید پرداخت بهای انجام پروژه را به صورت{" "}
                 <span className="font-[shabnamBold] underline">قسطی</span> نیز پرداخت نمایید.
               </p>
@@ -46,34 +50,34 @@ const Order = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#f5f5f9] pt-20 pb-10 relative -z-50">
-        <div className="container px-48 mx-auto flex justify-between">
+      <section className="bg-[#f5f5f9] pt-20 pb-10 relative z-50">
+        <div className="px-48 max-lg:px-20 max-md:px-10 max-sm:px-4 mx-auto flex flex-wrap justify-between max-2xl:justify-center">
           <form className="flex flex-col items-start justify-center gap-y-2">
             <label htmlFor="name">نام</label>
             <input
               id="name"
               type="text"
-              className="border border-solid border-[#ccc] w-[35rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
+              className="border border-solid border-[#ccc] w-[35rem] max-lg:w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
               placeholder="نام"
             />
             <label htmlFor="num">شماره</label>
             <input
               id="num"
               type="text"
-              className="border border-solid border-[#ccc] w-[35rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
+              className="border border-solid border-[#ccc] w-[35rem] max-lg:w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
               placeholder="شماره"
             />
             <label htmlFor="email">ایمیل</label>
             <input
               id="email"
               type="text"
-              className="border border-solid border-[#ccc] w-[35rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
+              className="border border-solid border-[#ccc] w-[35rem] max-lg:w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] outline-none rounded-full focus:placeholder:text-white placeholder:px-1 py-3 px-2"
               placeholder="ایمیل"
             />
             <label htmlFor="select">سفارش پروژه</label>
             <select
               id="select"
-              className="border border-solid border-[#ccc] w-[35rem] outline-none rounded-full focus:placeholder:text-white py-3 px-2"
+              className="border border-solid border-[#ccc] w-[35rem] max-lg:w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] outline-none rounded-full focus:placeholder:text-white py-3 px-2"
             >
               <option className="font-[shabnamBold]">انتخاب کنید</option>
               <option className="font-[shabnamBold]">طراحی وبسایت اختصاصی</option>
@@ -89,10 +93,10 @@ const Order = () => {
             </select>
             <label htmlFor="area">توضیحات</label>
             <textarea
-              className="border border-solid border-[#ccc] w-[35rem] outline-none rounded-3xl min-h-[50px] placeholder:px-1 focus:placeholder:text-white py-3 px-3"
+              className="border border-solid border-[#ccc] w-[35rem] max-lg:w-[25rem] max-md:w-[20rem] max-sm:w-[15rem] outline-none rounded-3xl min-h-[50px] placeholder:px-1 focus:placeholder:text-white py-3 px-3"
               placeholder="توضیحات سفارش"
             />
-            <label htmlFor="file" className="tracking-tighter">
+            <label htmlFor="file" className="tracking-tighter mb-2">
               در صورت نیاز به آپلود فایل آپلود کنید
             </label>
             <input type="file" className="font-[shabnamBold]" />
