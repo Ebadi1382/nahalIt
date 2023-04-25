@@ -16,10 +16,12 @@ const UI_UX = () => {
         </div>
       </header>
       <div className="bg-[#f5f5f9] pb-10">
-        <div className="container px-48 mx-auto">
-          <h2 className="font-[shabnamBold] text-4xl px-24 pt-10 mt-2 tracking-tighter">نمونه کار های UI/UX نهال آی تی</h2>
-          <div>
-            <div className="flex items-center justify-center gap-x-5">
+        <div className="container px-48 max-lg:px-20 max-md:px-10 max-sm:px-2 mx-auto">
+          <h2 className="font-[shabnamBold] text-4xl max-lg:text-3xl max-md:text-xl max-sm:text-lg whitespace-nowrap flex items-center justify-center px-24 pt-10 mt-2 tracking-tighter">
+            نمونه کار های UI/UX نهال آی تی
+          </h2>
+          <div className="flex flex-wrap items-center justify-center">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-5">
               <img
                 alt="UI_UX"
                 width={200}
@@ -46,7 +48,7 @@ const UI_UX = () => {
                 src="https://nahalit.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-16-at-15.44.14-473x1024.jpeg"
               />
             </div>
-            <div className="flex flex-wrap items-center justify-start gap-x-5 gap-y-8 mt-8">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-8 mt-8">
               <img
                 alt="UI_UX"
                 width={255}
