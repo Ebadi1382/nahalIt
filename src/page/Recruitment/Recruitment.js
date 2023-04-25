@@ -17,46 +17,48 @@ const Recruitment = () => {
         </div>
       </header>
       <div className="bg-[#f5f5f9] mt-2 pb-32">
-        <div className="container px-48 mx-auto pt-12 flex justify-between items-start gap-x-12">
-          <div className="flex flex-col">
+        <div className="px-48 max-lg:px-16 max-md:px-5 max-sm:px-2 mx-auto pt-12 flex max-xl:flex-wrap max-lg:justify-center justify-between items-start gap-x-12">
+          <div className="flex flex-col max-xl:mb-8">
             <h3 className="font-[shabnamBold]">شرابط استخدام :</h3>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               اولین سایت فریلنسری به نام <span className="font-[shabnamBold]">نهال آی تی</span> که به صورت پکیجی می باشد و از تمام
               متخصصان در حوزه آی تی دعوت به عمل می آورد. خواهشمند است از تمام متخصصان در حوزه آی تی اگر نمونه کار در زمینه وب
               سایت،اپلیکیشن و فتوشاپ،بنر،پوستر و موشن گرافیک… دارند می توانند پروژه های خود را به صورت رایگان در سایت نهال آی تی
               دمو نمایند.
             </p>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               به این صورت که شرح پروژه ی خود را به صورت داکیومنت،عکس و فیلم و خروجی کار خود را به صورت فیلم و کامل ارسال نمایند؛
               در صورتی که محصول شما قابل اراِئه بود در سایت نهال آی تی بارگذاری می شود و بعد از اولین سفارش محصولتان با شما در
               تماس خواهیم بود.
             </p>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               لازم به ذکر است که شما وظیفه دارید در یک سال اول محصول خود را پشتیبانی نمایید و هزینه ی پشتیبانی هم به شما داده
               خواهد شد؛ همچنین بعد از سفارش محصول شما تمامی سورس کد یا فرمت های استانداردی کار شما در اختیار ما قرار خواهند گرفت.
             </p>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               همچنین شما می توانید قیمت پیشنهادی محصول خود را و پشتیبانی تخصص خود را بصورت اشتراکی و تعداد بالا اعلام نمایید که
               بتوانیم با توضیحات و هزینه ی دلخواه شما در سایت نهال آی تی دمو نماییم.
             </p>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               لازم به ذکر است که ممکن است محصولی که شما دارید را شخص دیگری سایت دمو کرده باشد و قیمت پیشنهادی آن شخص کمتر از شما
               باشد و ما محصول آن شخص را دمو می نماییم.
             </p>
-            <p className="text-[1.1rem]">
+            <p className="text-[1.1rem] leading-6">
               همچنین شما می توانید بصورت (برنامه نویس، فتوشاپ و گرافیک کار یا موشن…) در سایت نهال آی تی ثبت نام نمایید و به شما
               پروژه می دهیم و به صورت پروژه ای فعالیت نمایید.
             </p>
-            <p className="text-[1.1rem]">لطفا ابتدا نمونه قرارداد ها را مشاهده نموده سپس در صورت تمایل فرم را پر نمایید .</p>
-            <Link className="text-[1.1rem] mt-10 font-[shabnamBold] underline hover:text-[#0056b3] transition-all duration-200">
+            <p className="text-[1.1rem] leading-6">
+              لطفا ابتدا نمونه قرارداد ها را مشاهده نموده سپس در صورت تمایل فرم را پر نمایید .
+            </p>
+            <Link className="text-[1.1rem] leading-6 mt-10 font-[shabnamBold] underline hover:text-[#0056b3] transition-all duration-200">
               نمونه قرارداد برنامه نویسی
             </Link>
-            <Link className="text-[1.1rem] mt-7 font-[shabnamBold] underline hover:text-[#0056b3] transition-all duration-200">
+            <Link className="text-[1.1rem] leading-6 mt-7 font-[shabnamBold] underline hover:text-[#0056b3] transition-all duration-200">
               نمونه قرارداد گرافیک و موشن گرافیک و ..
             </Link>
           </div>
           <div>
-            <form className="flex flex-col w-[35rem] gap-y-2">
+            <form className="flex flex-col justify-center w-[35rem] max-xl:w-[25rem] max-lg:w-[20rem] gap-y-2">
               <label htmlFor="NameRecruitment" className="font-[shabnamBold]">
                 نام شما <span className="text-red-500">*</span>
               </label>
@@ -96,8 +98,8 @@ const Recruitment = () => {
               </label>
               <form>
                 <div className="flex items-center justify-around font-[shabnamMedium]">
-                  <div className="flex flex-col gap-y-5">
-                    <div className="flex flex-col gap-y-1">
+                  <div className="flex flex-col flex-wrap gap-y-5">
+                    <div className="flex flex-col flex-wrap gap-y-1">
                       <div className="flex items-center gap-x-1">
                         <input type="checkbox" />
                         <label>طراح سایت بخش فرانت اند</label>
