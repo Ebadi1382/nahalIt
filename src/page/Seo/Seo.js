@@ -15,7 +15,7 @@ const Seo = () => {
           <ResponseHeader />
         </div>
       </header>
-      <div className="flex items-start justify-around bg-[#f5f5f9] mt-1 pb-10 pt-10">
+      <div className="flex flex-wrap gap-y-10 items-start justify-around bg-[#f5f5f9] mt-1 pb-10 pt-10">
         <div className="flex flex-col items-center justify-center gap-3">
           <p className="font-[shabnamBold] tracking-tighter">سئو وب سایت آسمان سازه</p>
           <p>کلمات بهینه شده در این پروژه: </p>
