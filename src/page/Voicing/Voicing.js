@@ -17,7 +17,7 @@ const Voicing = () => {
         </div>
       </header>
       <div className="flex items-center justify-center min-h-[50vh]">
-        <h2 className="font-[shabnamBold] flex items-center justify-center gap-x-1">
+        <h2 className="font-[shabnamBold] max-lg:font-[shabnamThin] max-lg:text-xl flex items-center justify-center gap-x-1">
           در حال حاضر نمونه کاری وجود ندارد
           <TfiFaceSad />
         </h2>
